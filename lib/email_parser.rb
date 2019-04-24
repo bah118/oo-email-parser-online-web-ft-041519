@@ -15,7 +15,7 @@ class EmailParser
     @emails = csv_emails 
   end
 
-  def parser
+  def parse
     @emails.split(/[\s,]/)
   end
 end
