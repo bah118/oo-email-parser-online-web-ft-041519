@@ -6,9 +6,6 @@
 
 class EmailParser
 
-  #class array for all emails 
-  @@all = [] 
-
   attr_accessor :emails 
 
   def initialize(csv_emails)
