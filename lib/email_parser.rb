@@ -15,6 +15,6 @@ class EmailParser
   end
 
   def parser(emails)
-    
+    @data
   end
 end
