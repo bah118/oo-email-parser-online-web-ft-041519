@@ -14,7 +14,7 @@ class EmailParser
     @data = emails 
   end
 
-  def parser(emails)
+  def parser
     @data.split(/(\s|,)+/)
   end
 end
