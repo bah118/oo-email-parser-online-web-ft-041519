@@ -6,13 +6,17 @@
 
 class EmailParser
 
+  #class array for all emails 
+  @@all = [] 
 
 
-
-def initialize(emails)
+  def initialize(emails)
   
-end
+  end
+
+  def parser(emails)
   
+  end
   
   
 end
