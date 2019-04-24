@@ -10,8 +10,8 @@ class EmailParser
   @@all = [] 
 
 
-  def initialize(cemails)
-    @emails = emails 
+  def initialize(csv_emails)
+    @emails = csv_emails 
   end
 
   def parser
